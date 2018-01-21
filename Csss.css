@@ -1,0 +1,252 @@
+body{
+   font-family: Arial, sans-serif;
+   padding: 0;
+   margin: 0;
+   background: #EEE9E9;
+}
+header{
+	 background: url(http://www.tvcchurch.org.uk/wp-content/uploads/sites/3/2015/07/6953926-plain-green-background.jpg) no-repeat center top / cover;
+   height: 84px;
+   padding-top: 80px;
+}
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+.logo{
+  padding-left: 30px;
+}
+
+.dws-menu{
+  margin: 0;
+  padding: 0;
+  float: right;
+  font-size: 10px;
+}
+
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+	   display: flex;
+     justify-content: center;
+}
+.dws-menu > ul li a{
+	  display: block;
+    background: #FFFAFA;
+    padding: 15px 30px 15px 40px;
+    font-size: 13px;
+    color: #8B8989;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: ARIAL BLACK;
+}
+.dws-menu > ul li{
+   position: relative;
+   border-right: 1px solid #228B22;
+   border-top: 5px solid #228B22;
+}
+
+.dws-menu > ul li:first-child{
+	border-left: 1px solid #228B22;
+}
+.dws-menu > ul li:last-child{
+	border-right: 1px solid #228B22;
+}
+.dws-menu li a:hover{
+background: #FFFAFA;
+color:  #32CD32;
+box-shadow: 2px 5px 40px -5px #00FF00;
+transition: all 0.4s ease;
+}
+
+
+
+/*Sub Menu*/
+
+.dws-menu li ul{
+	position: absolute;
+  min-width:150px;
+  display: none;
+}
+.dws-menu li> ul li{
+   border: 1px solid #c7c8ca;
+}
+.dws-menu li> ul li a{
+	  padding: 20px;
+    text-transform: none;
+    background:   #FFFAFA;
+}
+.dws-menu li > ul li ul{
+	  position: absolute;
+    right: -150px;
+    top: 0;
+}
+.dws-menu li:hover > ul{
+	display: block;
+}
+
+section{
+  
+  padding-top: 50px;
+}
+ 
+h2{
+  text-align: center;
+  display: inline-block;
+}
+
+}
+h3{
+  text-align: center;
+}
+.ret{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.box{
+  height: 800px;
+  width: px;
+  background-color: #FFFAFA;
+}    
+
+.body_resize {
+  margin:0 auto;
+  padding:0;
+  width:969px;
+}
+.body {
+  margin:0;
+  padding:0;
+}
+.body h2 {
+  font:bold 24px Arial, Helvetica, sans-serif;
+  color:#a2cf58;
+  padding:3px 0 3px 5px;
+  margin:5px 0 10px 0;
+}
+.body h2 span {
+  color:#323a3f;
+}
+.body p {
+  font:normal 12px Arial, Helvetica, sans-serif;
+  color:#696969;
+  padding:5px;
+  margin:0;
+  line-height:1.8em;
+}
+.body img {
+  float:left;
+  margin:5px;
+  padding:0;
+}
+.body a {
+  color:#ea5d00;
+  text-decoration:underline;
+}
+.left {
+  float:left;
+  width: 700px;
+  margin:0;
+  padding:0;
+}
+.resize_bg {
+  background:#fcfdfe;
+  border:1px solid #d6d6d6;
+  margin:10px 0;
+  padding:10px;
+}
+.right {
+  float:right;
+  width:200px;
+  margin:0;
+  padding:0;
+}
+.right .blog {
+  border:1px solid #dedede;
+  margin:10px 0;
+  padding:10px;
+  background:#fff;
+}
+.right ul {
+  list-style:none;
+  margin:5px 10px;
+  padding:0;
+}
+.right li {
+  border-bottom:1px dashed #f0f1f1;
+  font:normal 14px Arial, Helvetica, sans-serif;
+  color:#696969;
+  padding:5px 0;
+  margin:3px 0;
+}
+.right li a {
+  padding:0 0 0 15px;
+  margin:0;
+  font:bold 14px Arial, Helvetica, sans-serif;
+  color:#696969;
+  text-decoration:none;
+}
+.right li a:hover {
+  color:#ea5d00;
+  text-decoration:none;
+}
+.right ul.sponsors {
+  list-style:none;
+  margin:5px 10px;
+  padding:0;
+}
+.right li.sponsors {
+  font:normal 11px Arial, Helvetica, sans-serif;
+  color:#585858;
+  padding:14px 10px;
+}
+.right li.sponsors a {
+  padding:0 0 0 0px;
+  margin:0;
+  font:bold 14px Arial, Helvetica, sans-serif;
+  color:#696969;
+  text-decoration:none;
+}
+.right li.sponsors span {
+  color:#ea5d00;
+  font:bold 12px Georgia, "Times New Roman", Times, serif;
+}
+p{
+  display: inline-block;
+}
+.footer_resize {
+  margin:0 auto;
+  padding:0;
+  width:930px;
+  color:#696969;
+  font:normal 12px Arial, Helvetica, sans-serif;
+  border-top:1px solid #CCC;
+}
+.footer {
+  padding:0;
+  margin:0 auto;
+}
+.footer p {
+  margin:0;
+  padding:15px 0;
+  line-height:normal;
+  color:#696969;
+}
+.footer a {
+  color:#696969;
+  padding:inherit;
+  text-decoration:underline;
+}
+.footer a:hover {
+  text-decoration:none;
+}
+.footer .lf {
+  float:left;
+}
+.footer .rf {
+  float:right;
+}
